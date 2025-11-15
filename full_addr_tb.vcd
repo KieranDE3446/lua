@@ -1,0 +1,59 @@
+$date
+	Sat Nov 15 23:31:43 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_full_addr $end
+$var wire 1 ! sum $end
+$var wire 1 " carry_out $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c_in $end
+$scope module dut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c_in $end
+$var wire 1 " carry_out $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+1%
+#20000
+0%
+1$
+#30000
+1"
+0!
+1%
+#40000
+0"
+1!
+0%
+0$
+1#
+#50000
+1"
+0!
+1%
+#60000
+1!
+1$
+#70000
