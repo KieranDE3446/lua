@@ -1,0 +1,5 @@
+[kiedau01 16/11/25] Since we now have iverilog working
+we can get more complicated verilog designs.
+ -We could make a full calculator
+ 
+I also want to get a great personalized lua file in the repo so I can have an up-to date one across my workspaces.
