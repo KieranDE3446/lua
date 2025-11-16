@@ -26,14 +26,13 @@ module alu_tb;
 	for (i=0;i<=15;i=i+1)
 	begin
 	alu_sel = i;
-	#1;
+	#10;
 	case (alu_sel)
 		4'b0000: $display("%d +%d = %d", a, b, alu_out);
 		4'b0001: $display("%d -%d = %d", a, b, alu_out);
 		4'b0010: $display("%d *%d = %d", a, b, alu_out);
 		4'b0011: $display("%d /%d = %d", a, b, alu_out);
 	endcase
-	#9;
 	end
 
 	a = 8'hF6;
