@@ -1,0 +1,9 @@
+Required files:
+- design.v
+- design_tb.v
+
+To run:
+>iverilog -o design.vvp design_tb.v design.v
+
+To observe results:
+>vvp design.vvp
